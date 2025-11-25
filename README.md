@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<title>한국의 SDGs 데이터 플랫폼</title>
