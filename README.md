@@ -1,1 +1,32 @@
-# kostat-sdg-kor.github.io
+<!DOCTYPE html>
+<html>
+<head>
+	<title>한국의 SDGs 데이터 플랫폼</title>
+ 	<meta charset="utf-8" />
+  	<script>
+		window.onload=function(){
+			var popup=window.open("about:blank", "pop", "width=400,height=500,history=no,resizable=no,status=no,scrollbars=yes,menubar=no");
+			if(popup) {
+				popup.document.write('
+					<!DOCTYPE html>
+					<html>
+						<head>
+							<meta charset="utf-8" />
+							<title>팝업 창</title>
+						</head>
+						<body> 
+							<h1> 팝업창</h1>
+							<p>Testing popup window</p> 
+						</body>
+					</html>
+				');
+			}
+			setTimeout(function(){
+				window.location.replace = "https://kostat-sdg-kor.github.io/sdg-indicators/";}, 10000);
+		};
+	</script>
+</head>
+<body>
+	<a href="https://kostat-sdg-kor.github.io/sdg-indicators">https://kostat-sdg-kor.github.io/sdg-indicators</a>	
+</body>
+</html>
